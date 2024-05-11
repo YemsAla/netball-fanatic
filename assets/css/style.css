@@ -3,6 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maitree:wght@200;300;400;500;600;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
+:root {
+    --title: "Maitree", sans-serif;
+  --main-font: "Quicksand", "Roboto" serif;
+  --navigation-font: "Maitree", sans-serif;
+
+  /* Colors */
+  --text: #000000;
+  --background: #ffffff;
+  /* --primary:;
+  --secondary:;
+  --accent: ; */
+
+  /* Utility */
+--form-shadow: 0 0 0.7rem var(--primary);
+--small-boxshadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+--boxshadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+--border: 1px 1px 2px 1px;
+}
+
 *{
     margin:0;
     padding:0;
@@ -10,30 +29,109 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: Lato;
     color: #0e0e0e;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Maitree;
-    text-transform: uppercase;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    /* color: ; */
 } 
+
+/* Homepage styling */
 
 #logo {
     float: left;
     font-size: large;
 }
 
+.callout-container {
+    margin-top: 100px;
+    border: 1px solid #000;
+}
+
 .hero {
     margin-bottom: 30px;
     padding: 50px;
-    border-color: red;
+    border: 1px solid #000;
     border-width: 2px;
+}
+
+.netball-shot-image {
+    min-height: 200px;
+    border: 1px solid #000;
+    padding: 20px;
 }
 
 .what-is-netball {
     min-height: 200px;
-    border-style: dashed;
-    border: 2px;
+    border: 1px solid #000;
+    padding: 20px;
 }
+
+.netball-intro-image {
+    display: inline-flexbox;
+}
+
+.w-i-n {
+    margin-bottom: 20px;
+}
+
+.netball-intro {
+    min-height: 200px;
+    border: 1px solid #000;
+    padding: 20px 20px 10px 20px;
+}
+
+.intro-para {
+    margin: 15px;
+    margin-bottom: 5px;
+}
+
+.netball-shot {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.footer-style {
+    height: 30px;
+    border-top: 0.5px solid #4b4848;
+}
+
+/* .intro-image {
+    height: 100px;
+    width: 100px;
+   
+} */
+
+/* About Netball styling */
+
+.brief-history-image {
+    height: 250px;
+    border: 1px solid #000;
+}
+
+.netball-court-image {
+    height:500px;
+    width: 500px;
+    position: relative;
+    border: 1px solid #740303;
+    
+}
+
+.positions {
+    margin-left: 0;
+}
+

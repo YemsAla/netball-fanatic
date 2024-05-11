@@ -135,3 +135,28 @@ h6 {
     margin-left: 0;
 }
 
+/* Playing Netball styling */
+
+.tip-cards {
+    margin-top: 25px;
+    position: relative;
+    align-items: stretch;
+    color: aqua;
+    margin: 75px;
+    padding: inherit;
+    margin-left: 300px;
+}
+
+.tip-container {
+    margin:50px 100px 50px 100px;
+}
+
+.tip-item {
+    height: 200px;
+}
+
+.tip-content {
+    text-align: center;
+
+}
+

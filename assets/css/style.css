@@ -49,6 +49,10 @@ h6 {
     /* color: ; */
 } 
 
+.test {
+    border: #740303 1px solid;
+}
+
 /* Homepage styling */
 
 #logo {
@@ -139,19 +143,28 @@ h6 {
 
 .tip-cards {
     margin-top: 25px;
+
     position: relative;
     align-items: stretch;
-    color: aqua;
+    background-color: rgb(108, 243, 139);
     margin: 75px;
     padding: inherit;
-    margin-left: 300px;
+    height: 200px; 
+    
 }
 
-.tip-container {
+ .tip-container { 
     margin:50px 100px 50px 100px;
+    margin-bottom: 50px;
 }
 
-.tip-item {
+.tip-title {
+    font-size: 18px;
+    color: #000;
+    margin-top: 20px;
+}
+
+/* .tip-item {
     height: 200px;
 }
 
@@ -161,5 +174,13 @@ h6 {
 
 .tutorial-title {
     text-align: center;
+} */ 
+
+.tutorials-container {
+    margin-top: 100px;
+
 }
 
+.tutorial-videos {
+    height: 250px;
+}

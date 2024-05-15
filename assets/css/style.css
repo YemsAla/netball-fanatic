@@ -140,19 +140,37 @@ h6 {
 .brief-history-image {
     height: 230px;
     width: 470px;
-    border: 5px solid #e31b99;
+    border: 1px solid #e31b99;
 }
 
 .netball-court-image {
-    height:500px;
+    height: 550px;
     width: 500px;
     position: relative;
-    border: 1px solid #740303;
+    /* border: 1px solid #740303; */
+    margin-left: 50px;
+    /* border: 5px solid #e31b99; */
     
 }
 
 .positions {
     margin-left: 0;
+}
+
+.bib-positions {
+    height: 40px;
+    width: 90px;
+    row-gap: 20px;
+    
+}
+.bg-info {
+    --bs-bg-opacity: 0.5;
+    background-color: #f4f6f8 !important;
+    border: 2px solid #c50a80;
+}
+
+.rules {
+    line-height: 30px;
 }
 
 /* Playing Netball styling */
@@ -205,3 +223,4 @@ h6 {
         width: 23%;
     }
 }
+

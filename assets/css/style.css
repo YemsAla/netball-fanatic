@@ -138,8 +138,9 @@ h6 {
 /* About Netball styling */
 
 .brief-history-image {
-    height: 250px;
-    border: 1px solid #000;
+    height: 230px;
+    width: 470px;
+    border: 5px solid #e31b99;
 }
 
 .netball-court-image {
@@ -198,4 +199,9 @@ h6 {
 
 .tutorial-videos {
     height: 250px;
+    gap: 1rem;
+
+    .col-3 {
+        width: 23%;
+    }
 }

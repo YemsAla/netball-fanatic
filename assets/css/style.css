@@ -126,18 +126,24 @@ h6 {
 }
 
 .intro-image {
-    height: 300px;
-    width: 250px;
+    /* height: 300px;
+    width: 250px; */
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
     height: 250px;
-    width: 300px;
+    width: 400px;
    }
 
    .footer-style {
     height: 30px;
     border-top: 0.5px none #4b4848;
+}
+
+.footer-style a i {
+    height: 30px;
+    color: #c50a80;
+    border:1px solid #000;
 }
 
 /* About Netball styling */

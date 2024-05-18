@@ -241,3 +241,25 @@ h6 {
     }
 }
 
+/* Contact page styling */
+
+#feedback-form {    
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.button-link {
+    background-color: #c50a80;
+    padding: 10px;
+    color: #ffffff;
+    font-size: large;
+    font-style: var(--navigation-font);
+    font-weight: 600;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}

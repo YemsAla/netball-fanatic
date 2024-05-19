@@ -135,6 +135,8 @@ h6 {
     width: 400px;
    }
 
+   /* Footer styling */
+
    .footer-style {
     height: 30px;
     border-top: 0.5px none #4b4848;
@@ -161,13 +163,15 @@ h6 {
     /* border: 1px solid #740303; */
     margin-left: 50px;
     /* border: 5px solid #e31b99; */
+}
 
 .rules {
     line-height: 30px;
 }
 
+.rules-title {
+    text-align: center;
 }
-
 .positions {
     margin-left: 0;
 }
@@ -185,8 +189,9 @@ h6 {
 }
 
 .gs-b-p {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
+    color: #e31b99;
 
 }
 

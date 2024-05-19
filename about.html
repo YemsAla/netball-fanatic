@@ -105,9 +105,10 @@
 
     <section>
         <!-- Rules & Positions -->
-        <div class="container mt-6 pt-4 pb-0 mb-0">
-            <div class="row">
+        <div class="container mt-6 pt-4 pb-0 mb-0 align-items-center">
+            <div class="row text-center">
             <h3>Rules & Positions</h3>
+            <p>Hover or tap on each bib position to reveal details about it.</p>
             </div>
         </div>
 
@@ -119,15 +120,54 @@
         
         <div class="col-2 positions">
             <div class="d-flex flex-column ml-0 p-3 bib-positions">
-                <button><img src="assets/images/Bib positions/GS.png" class="p-0 bg-info gs-b-p btn"  type="button" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="The primary shooter responsible for scoring goals. 
-                    They position themselves close to the goalpost and focus on accurate shooting.">
+                <!-- GS -->
+                <button><img src="assets/images/Bib positions/GS.png" class="p-0 bg-info gs-b-p btn"  
+                  type="button" data-bs-toggle="tooltip" data-bs-placement="right" 
+                  data-bs-title="Goal Shooter. The primary shooter responsible for scoring goals. 
+                They position themselves close to the goalpost and focus on accurate shooting.">
                 </button>
-                <button><img src="assets/images/Bib positions/GA.png" class="p-0 bg-info gs-b-p btn"></button>
-                <button><img src="assets/images/Bib positions/WA.png" class="p-0 bg-info gs-b-p btn"></button>
-                <button><img src="assets/images/Bib positions/C.png" class="p-0 bg-info gs-b-p btn"></button>
-                <button><img src="assets/images/Bib positions/WD.png" class="p-0 bg-info gs-b-p btn"></button>
-                <button><img src="assets/images/Bib positions/GD.png" class="p-0 bg-info gs-b-p btn"></button>
-                <button><img src="assets/images/Bib positions/GK.png" class="p-0 bg-info gs-b-p btn"></button>
+
+                <!-- GA -->
+                <button><img src="assets/images/Bib positions/GA.png" class="p-0 bg-info gs-b-p btn"  
+                  type="button" data-bs-toggle="tooltip" data-bs-placement="right" 
+                  data-bs-title="Goal Attack. Supports the goal shooter in scoring goals and provides additional attacking options.
+                  They also assist with feeding the ball into the shooting circle.">
+                </button>
+
+                <!-- WA -->
+                <button><img src="assets/images/Bib positions/WA.png" class="p-0 bg-info gs-b-p btn"
+                  type="button" data-bs-toggle="tooltip" data-bs-placement="right" 
+                  data-bs-title="Wing Attack. Plays a key role in feeding the ball into the shooting circle and facilitating attacking plays.
+                  They work closely with the center to maintain possession and create scoring opportunities.">
+                </button>
+
+                <!-- C -->
+                <button><img src="assets/images/Bib positions/C.png" class="p-0 bg-info gs-b-p btn"
+                  type="button" data-bs-toggle="tooltip" data-bs-placement="right" 
+                  data-bs-title="Centre. Acts as the link between defense and attack, playing both offensive and defensive roles. 
+                  They are responsible for distributing the ball to teammates and controlling the pace of the game.">
+                </button>
+
+                <!-- WD -->
+                <button><img src="assets/images/Bib positions/WD.png" class="p-0 bg-info gs-b-p btn"
+                  type="button" data-bs-toggle="tooltip" data-bs-placement="right" 
+                  data-bs-title="Wing Defence. Works to disrupt the opposing team's attacking plays and intercept passes. 
+                  They provide defensive support to the center and help transition the ball from defense to attack.">
+                </button>
+
+                <!-- GD -->
+                <button><img src="assets/images/Bib positions/GD.png" class="p-0 bg-info gs-b-p btn"
+                  type="button" data-bs-toggle="tooltip" data-bs-placement="right" 
+                  data-bs-title="Goal Defence. Defends against the opposing team's goal shooters and goal attacks, 
+                  aiming to intercept passes and prevent goals. They provide support to the goalkeeper in defending the shooting circle.">
+                </button>
+
+                <!-- GK -->
+                <button><img src="assets/images/Bib positions/GK.png" class="p-0 bg-info gs-b-p btn"
+                  type="button" data-bs-toggle="tooltip" data-bs-placement="right" 
+                  data-bs-title="Goal Keeper. The last line of defense, responsible for defending the goalpost and preventing the opposing team 
+                  from scoring. They focus on intercepting shots and rebounds and clearing the ball out of the defensive circle.">
+                </button>
             </div>
         </div>
 
@@ -179,6 +219,8 @@
       </div>
     </div>
 </footer>
-    
+
+<script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
 </body>
 </html>

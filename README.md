@@ -1,5 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 # Netball Fanatix
+## Fanatic about netball
 
-## Fanatic about everything netball! 
+### References
+https://www.youtube.com/watch?v=OV8MVmtgmoY

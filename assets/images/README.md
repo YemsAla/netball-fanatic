@@ -9,7 +9,7 @@ The site provides useful and comprehensive education on netball rules, positions
 
 ## Website URL
 
-Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/index.html)
+Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/index.html) 
 
 ## Table of Contents
 

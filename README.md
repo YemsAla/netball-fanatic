@@ -17,9 +17,10 @@ Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/i
 - [Pages](#pages)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
+- [Wireframes](#wireframes)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [References](#references)
 - [Contact](#contact)
 
 ## Introduction
@@ -34,13 +35,14 @@ The website consists of the following pages:
 
 1. **Homepage**: Introduction to netball and the website, with a links to how to play resources.
 2. **About Netball**: Detailed explanation of what netball is, its history and how the game is played.
-3. **Netball Skills and Techniques**: Tips and tutorials on essential netball skills such as passing, shooting, footwork and defending.
+3. **Netball Skills and Techniques**: Tips, advice and tutorials on essential netball skills such as passing, shooting, footwork and defending.
 4. **FAQs / Contact Us**: Answers to frequently asked questions and a contact form for inquiries.
 
 ## Features
 
 - Informative content on netball history, rules, positions and skills.
-- Clean and responsive design for an optimal user experience.
+- Tooltip images to learn more about positions.
+- Tip cards to reveal useful advice about how to play netball.
 - Easy navigation with a main menu and structured layout.
 - Contact form for user inquiries and feedback.
 - Social media link for further engagement.
@@ -49,24 +51,23 @@ The website consists of the following pages:
 
 - **HTML5**: For structuring the content on the website.
 - **CSS3**: For styling and layout.
+- **Javascript**: For styling
 - **Bootstrap**: For responsive design and additional styling components.
-- **Git & GitHub**: For version control and hosting.
+- **Git & GitHub Pages**: Used to securely store the code and to host and deploy the live project.
+- **GitPod**: Used as a cloud-based IDE for development
+- **Chrome Developer Tools**: Used for testing and troublshooting code, along with Lighthouse auditing
+- **Balsamiq**: Used to create wireframes during project planning
 
-## Installation
+## Wireframes
 
-To run the website locally, follow these steps:
+Wireframes were created using Balsamiq and used as a blueprint for development of the site layout and structure.
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yemsala/netball-fanatic.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd netball-fanatic
-    ```
-
-3. Open the `index.html` file in your web browser to view the website locally.
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
 
 ## Usage
 
@@ -109,8 +110,11 @@ Contributions to improve the website are welcome! To contribute:
 - Source: Netball Australia |[https://netball.com.au/news/immense-sense-achievement-and-pride-teede-recalls-71-world-netball-tournament]
 - Source: World Netball | [Link:https://netball.sport/game/facilities-and-equipment/]
 - Source: Play Netball | [Link:https://www.play-netball.co.uk/rules-and-regulations/]
-
-
+- Videos
+- Source: intosport.com | [Link:https://www.youtube.com/watch?v=TvfGjq7cWfA]
+- Source: Netball Australia| [Link:https://www.youtube.com/watch?v=N_kiYeeYvkU&t=12s]
+- Source: Netball Australia| [Link:https://www.youtube.com/watch?v=lzPJPCg5SCg]
+- Source: Netball Australia| [Link:https://www.youtube.com/watch?v=rtnDm52t_eM&list=PLgCNJssaP1-xN6wILskPThBNxXFrNX368&index=5]
 
 
 ## Contact

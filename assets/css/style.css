@@ -375,10 +375,10 @@ footer {
 
 #feedback-form {    
     width: 600px;
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-left: 350px;
     margin-right: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
     padding-bottom: 12px;
     padding-top: 12px;
 }

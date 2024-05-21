@@ -393,3 +393,23 @@ footer {
     border-radius: 25px;
     letter-spacing: 1px;
 }
+
+/* Contact page styling */
+
+    /* For smaller screns */
+ @media (max-width: 767px) {
+    .form-control input[type="text"],
+    .form-control input[type="email"],
+    .form-control textarea {
+        width: 100%;
+    }
+}
+
+/* For larger screens, adjust text field lengths */
+@media (min-width: 768px) {
+    .form-control input[type="text"],
+    .form-control input[type="email"],
+    .form-control textarea {
+        width: 90%;
+    }
+}

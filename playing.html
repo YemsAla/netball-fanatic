@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap links -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Font Awesome link -->
@@ -16,351 +15,207 @@
     <!-- Main CSS style -->
     <link rel="stylesheet" href="assets/css/style.css">
     
-    <title>Netball Fanatix | One-stop netball destination</title>
+    <title>Netball Fanatix | Learn to play</title>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg py-3">
-        <div class="container text-center">
-            <!-- Nav logo -->
-            <a href="index.html" class="navbar-brand">
-                <img src="assets/images/Netball Fanatix Logo.png" alt="netball fanatix logo & name" height="50"/>
-        </a>
-        <!-- Nav logo ends -->
+    <header>
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container text-center">
+                <!-- Nav logo -->
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/images/Netball Fanatix Logo.png" alt="netball fanatix logo & name" height="50"/>
+                </a>
+                <!-- Nav logo ends -->
 
-        <!-- Hamburger Toggler -->
-      <button
-      class="navbar-toggler border-0"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span>
-        <i class="fas fa-bars fa-2x" aria-hidden="true"></i>
-      </span>
-    </button>
-    <!-- Hamburger Toggler Ends -->
+                <!-- Hamburger Toggler -->
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span>
+                        <i class="fas fa-bars fa-2x" aria-hidden="true"></i>
+                    </span>
+                </button>
+                <!-- Hamburger Toggler Ends -->
 
+                <!-- Navigation Bar -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto fs-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Netball</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="playing.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Playing Netball</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="playing.html">Top Tips</a></li>
+                                <li><a class="dropdown-item" href="playing.html#Tutorials">Drills & Tutorials</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navigation Bar Ends -->
+    </header>
 
-      <!-- Navigation Bar -->
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto fs-5">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Netball</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="playing.html"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Playing Netball
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="playing.html">Top Tips</a></li>
-              <li><a class="dropdown-item" href="playing.html#Tutorials">Drills & Tutorials</a></li>
-              
-            </ul>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-    <!-- Navigation Bar Ends -->
-</header>
+    <main>
+        <!-- Tips -->
+        <section>
+            <!-- Title & subtitle -->
+            <div class="container tips-container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Tips & Tricks</h3>
+                    </div>
+                    <div class="col-12">
+                        <p>Here are the top 5 tips on essential netball skills - view each tile for useful tit-bits to help you learn how to play the game effectively.</p>
+                    </div>
+                </div>
+                <!-- Tip cards -->
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+                    <div class="col">
+                        <div class="card h-100 tip-cards">
+                            <div class="card-body">
+                                <h4>Tip 1</h4>
+                                <h6>Focus on Fundamentals</h6>
+                                <p>Master the basics of passing, shooting, and defending before moving on to advanced techniques. Practice regularly to build muscle memory and consistency in your skills.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 tip-cards">
+                            <div class="card-body">
+                                <h4>Tip 2</h4>
+                                <h6>Work on Footwork</h6>
+                                <p>Good footwork is essential in netball for maintaining balance, agility, and positioning. Practice footwork drills to improve your movement and ability to change direction quickly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 tip-cards">
+                            <div class="card-body">
+                                <h4>Tip 3</h4>
+                                <h6>Communication is Key</h6>
+                                <p>Effective communication with your teammates is crucial in netball. Keep talking on the court to coordinate plays, call for passes, and provide support to your teammates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 tip-cards">
+                            <div class="card-body">
+                                <h4>Tip 4</h4>
+                                <h6>Work on Footwork</h6>
+                                <p>Anticipate your opponent's movements and intentions to intercept passes and defend effectively. Stay focused and observant throughout the game to react quickly to changes in play.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 tip-cards">
+                            <div class="card-body">
+                                <h4>Tip 5</h4>
+                                <h6>Learn from Watching</h6>
+                                <p>Watch professional netball matches and analyze the techniques and strategies used by top players. Pay attention to their positioning, decision-making, and teamwork to improve your own game.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<main>
-
-    <!-- Tips -->
-    <section>
-
-        <!-- Title & subtitle -->
-        <div class="container tips-container">
-            <div class="row">
-                <div class="col-12">
-                    <h3>Tips & Tricks</h3>
+        <!-- Tutorials -->
+        <section>
+            <div class="container tutorials-container mt-4" id="Tutorials">
+                <div class="row">
+                    <div class="col-12 tutorial-title">
+                        <h3>Tutorials: Skills & Drills</h3>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <p>
-                            Here are the top 5 tips on essential netball skills
-                             - hover or tap on each tile to reveal useful tit-bits to help you learn how to play the game effectively.
-                        </p>
-                    
-
-                <!-- <div class="col-12"> -->
-                     <!-- Tip cards -->
-            <div class="d-flex flex-row mb-3">
-              <div class="container-fluid card-container">
-                <div class="thecard">
-                    <div class="card-front">
-                      <h4>Tip 1</h4>
-                      <h6>Focus on Fundamentals</h6>
+                        <p>Watch these tutorials to help you learn how to get the most of playing netball.</p>
                     </div>
-            
-                    <div class="card-back">
-                      <p>Master the basics of passing, shooting, and defending before moving on to advanced techniques. 
-                        Practice regularly to build muscle memory and consistency in your skills.
-                    </p>                            
-                  </div>
                 </div>
-              </div>
-
-        
-              <div class="container-fluid card-container">
-                <div class="thecard">
-                    <div class="card-front">
-                      <h4>Tip 2</h4>
-                      <h6>Work on Footwork</h6>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 text-center">
+                    <!-- Passing -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="text-start"><strong>Passing</strong></p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/TvfGjq7cWfA?si=DAIrKk5zbNpBSQLv" title="Netball Game: Essential Passing Skills and Drills" allowfullscreen></iframe>
+                                </div>
+                                <p class="text-start"><strong>Tutorial:</strong> Netball Game: Essential Passing Skills and Drills by intosport.com</p>
+                                <p class="text-start"><strong>Description: </strong>This tutorial covers various passing techniques, including chest pass, shoulder pass, bounce pass, and overhead pass. It provides step-by-step instructions and drills to improve passing accuracy and speed.</p>
+                            </div>
+                        </div>
                     </div>
-            
-                    <div class="card-back">
-                      <p>Good footwork is essential in netball for maintaining balance, agility, and positioning. 
-                        Practice footwork drills to improve your movement and ability to change direction quickly.
-                    </p>                            
-                  </div>
-                </div>
-              </div>
-
-              <div class="container-fluid card-container">
-                <div class="thecard">
-                    <div class="card-front">
-                      <h4>Tip 3</h4>
-                      <h6>Communication is Key</h6>
+                    <!-- Shooting -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="text-start"><strong>Shooting</strong></p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/N_kiYeeYvkU?si=GcybAwOD0yYI_3fe" title="Netball Shooting Skills" allowfullscreen></iframe>
+                                </div>
+                                <p class="text-start"><strong>Tutorial:</strong> "Netball Shooting Skills" by Netball Australia</p>
+                                <p class="text-start"><strong>Description: </strong>This tutorial focuses on shooting skills for goal shooters and goal attacks, covering shooting technique, footwork, and accuracy. It includes drills and exercises to improve shooting consistency and confidence.</p>
+                            </div>
+                        </div>
                     </div>
-            
-                    <div class="card-back">
-                      <p>Effective communication with your teammates is crucial in netball.
-                         Keep talking on the court to coordinate plays, call for passes, and provide support to your teammates.
-                    </p>                            
-                  </div>
-                </div>
-              </div>
-
-              <div class="container-fluid card-container">
-                <div class="thecard">
-                    <div class="card-front">
-                      <h4>Tip 4</h4>
-                      <h6>Work on Footwork</h6>
+                    <!-- Defending -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="text-start"><strong>Defending</strong></p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/lzPJPCg5SCg?si=QHR7b2_a4WFhAlLR" title="Netball Defending Skills" allowfullscreen></iframe>
+                                </div>
+                                <p class="text-start"><strong>Tutorial:</strong> "Netball Defensive Skills" by Netball Australia</p>
+                                <p class="text-start"><strong>Description: </strong>This tutorial explores defensive techniques for wing defence, goal defence, and goalkeeper positions. It covers positioning, marking, intercepting, and defending against different types of attacks.</p>
+                            </div>
+                        </div>
                     </div>
-            
-                    <div class="card-back">
-                      <p>Anticipate your opponent's movements and intentions to intercept passes and defend effectively.
-                         Stay focused and observant throughout the game to react quickly to changes in play.
-
-                    </p>                            
-                  </div>
-                </div>
-              </div>
-
-              <div class="container-fluid card-container">
-                <div class="thecard">
-                    <div class="card-front">
-                      <h4>Tip 5</h4>
-                      <h6>Learn from Watching</h6>
+                    <!-- Footwork -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="text-start"><strong>Footwork</strong></p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/rtnDm52t_eM?si=dtv7gtM4jkxCoTyz" title="Netball Footwork and Movement skills" allowfullscreen></iframe>
+                                </div>
+                                <p class="text-start"><strong>Tutorial:</strong> "Netball Footwork and Movement skills" by Netball Australia</p>
+                                <p class="text-start"><strong>Description: </strong>This tutorial focuses on footwork drills to improve agility, balance, and coordination on the court. It includes exercises to practice pivoting, dodging, and changing direction quickly.</p>
+                            </div>
+                        </div>
                     </div>
-            
-                    <div class="card-back">
-                      <p>Watch professional netball matches and analyze the techniques and strategies used by top players.
-                        Pay attention to their positioning, decision-making, and teamwork to improve your own game.
-                    </p>                            
-                  </div>
-
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Tutorials -->
-    <section>
-
-    <div class="container tutorials-container mt-4" id="Tutorials">
-        <div class="row">
-            <div class="col-12 tutorial-title">
-            <h3>Tutorials: Skills & Drills</h3>
+    <footer class="mt-auto">
+        <div class="container-fluid footer-style">
+            <div class="row mb-3">
+                <div class="social-link d-flex justify-content-center pt-4 gap-5">
+                    <a href="https://github.com/YemsAla/netball-fanatic" class="icon-link" target="_blank" rel="noopener" aria-label="Visit the developer's GitHub page (opens in a new tab)">
+                        <i class="fa-brands fa-github nav-icon fa-2x"></i>
+                    </a>
+                    <a href="https://www.englandnetball.co.uk/play-netball/" class="icon-link" target="_blank" rel="noopener" aria-label="Visit Netball England's site to find a club near you (opens in a new tab)">
+                        <i class="fa-solid fa-people-group fa-2x"></i>
+                    </a>
+                </div>
             </div>
-        </div>
-     
-
-        
-        <div class="row">
-            <div class="col-12">
-                <p>
-                    Watch these tutorials to help you learn how to get the most of playing netball.
-                </p>
+            <div class="row pb-4">
+                <div class="d-flex flex-column justify-content-center pt-2 align-items-center gap-1">
+                    <p class="lead mb-auto">© developed by Yemi Alade</p>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container text-center">
-
-         <!--   Passing -->        
-        <div class="row tutorial-videos">
-          <div class="col-3 test">
-            <div class="row">
-                <div class="col-1">
-                    <p class="text-start"><strong>Passing</strong></p>
-                </div>
-            </div>
-            <div class="ratio ratio-1x1">
-                <iframe src="https://www.youtube.com/embed/TvfGjq7cWfA?si=DAIrKk5zbNpBSQLv" title="Netball Game: Essential Passing Skills and Drills" allowfullscreen muted controls></iframe>
-            </div>
-            <div class="container-fluid">
-              <div class="row">
-                <p class="col text-start"><strong>Tutorial:</strong>Netball Game: Essential Passing Skills and Drills by intosport.com</p>
-              </div>
-              <div class="row">
-                <p class="col text-start">
-                <Strong>Description: </Strong>This tutorial covers various passing techniques, including chest pass, 
-                shoulder pass, bounce pass and overhead pass.
-                It provides step-by-step instructions and drills to improve passing accuracy and speed.
-            </p>
-              </div>
-              <div class="row"></div>
-            </div>         
-          </div>
-          
-          
-          <!--   Shooting -->
-        
-          <div class="col-3 test">
-            <div class="row">
-              <div class="col-sm-6 col-md-4 col-lg m-2">
-                <div class="col-1">
-                    <p class="text-start"><strong>Shooting</strong></p>
-                </div>
-            
-            <div class="ratio ratio-1x1">
-                <iframe src="https://www.youtube.com/embed/N_kiYeeYvkU?si=GcybAwOD0yYI_3fe" title="Netball Shooting Skills" allowfullscreen muted controls></iframe>
-               </div>
-
-               <div class="container-fluid">
-                <div class="row">
-                  <p class="text-start"><strong>Tutorial:</strong> "Netball Shooting Skills"  by Netball Australia</p>
-                </div>
-                <div class="row">
-                  <p class="text-start">
-                  <Strong>Description: </Strong>This tutorial focuses on shooting skills for goal shooters and goal attacks, 
-                  covering shooting technique, footwork and accuracy. It includes drills and exercises to improve 
-                  shooting consistency and confidence.
-              </p>
-                </div>
-                <div class="row"></div>
-              </div>
-               </div>
-            </div>
-            </div>
-
-          <!--   Defending -->
-    <div class="col-3 test">
-        <div class="row">
-            <div class="col-1">
-                <p class="text-start"><strong>Defending</strong></p>
-            </div>
-          </div>
-
-        <div class="ratio ratio-1x1">
-            <iframe src="https://www.youtube.com/embed/lzPJPCg5SCg?si=QHR7b2_a4WFhAlLR" title="Netball Defending Skills" allowfullscreen muted controls></iframe>
-        </div>
-
-           <div class="container-fluid">
-            <div class="row">
-              <p class="text-start"><strong>Tutorial:</strong> 
-                "Netball Defensive Skills" by Netball Australia
-              </p>
-            </div>
-            <div class="row">
-              <p class="text-start">
-              <Strong>Description: </Strong> This tutorial explores defensive techniques for wing defence,
-               goal defence, and goalkeeper positions. It covers positioning, marking, intercepting and
-                defending against different types of attacks.
-            </p>
-            </div>
-            <div class="row"></div>
-          </div>
-        
-      </div>
-
-             <!--   Footwork -->
-           <div class="col-3 test">
-           <div class="row">
-                <div class="col-1">
-                    <p class="text-start"><strong>Footwork</strong></p>
-                </div>
-            </div>
-
-            <div class="ratio ratio-1x1">
-                <iframe src="https://www.youtube.com/embed/rtnDm52t_eM?si=dtv7gtM4jkxCoTyz" title="Netball Footwork and Movement skills" allowfullscreen muted controls></iframe>
-            </div>
-
-            <div class="container-fluid">
-                <div class="row">
-                  <p class="text-start"><strong>Tutorial:</strong> "Netball Footwork and Movement skills" by Netball Australia</p>
-                </div>
-                <div class="row">
-                  <p class="text-start">
-                  <Strong>Description: </Strong>This tutorial focuses on footwork drills to improve agility,
-                   balance and coordination on the court. It includes exercises to practice pivoting, dodging
-                    and changing direction quickly.
-                </p>
-                </div>
-
-                <div class="row"></div>
-              </div>
-            
-           </div>
-        
-      </div>
-
-    
-    </section>
-    
-</main>
-
-<!-- <footer class="mt-auto">
-    <div class="container-fluid footer-style">
-      <div class="row mb-3">
-        <div class="social-link d-flex justify-content-center pt-4 gap-5">
-          <a
-            href="#"
-            class="icon-link"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit the developer's GitHub page (opens in a new tab)"
-          >
-            <i class="fa-brands fa-github nav-icon fa-3x"></i>
-          </a>
-          <a
-            href="#"
-            class="icon-link"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit Netball England's site to find a club near you (opens in a new tab)"
-            ><i class="fa-solid fa-people-group fa-3x"></i
-          ></a>
-        </div>
-      </div>
-      <div class="row pb-4">
-        <div class="d-flex flex-column justify-content-center pt-2 align-items-center gap-1">
-          <p class="lead mb-auto">© developed by Yemi Alade</p>
-        </div>
-      </div>
-    </div>
-</footer> -->
-    
+    </footer>
 </body>
+
 </html>

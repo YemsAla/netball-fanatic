@@ -53,6 +53,7 @@ body {
     color: #0e0e0e;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 main {
@@ -188,6 +189,7 @@ footer {
     border-top: 0.5px none #4b4848; */
     background-color: #343a40;
     color: #ffffff;
+    padding: 20px 0;
 }
 
 .footer-style a i {
@@ -246,17 +248,10 @@ footer {
 /* Playing Netball styling */
 
 /* <-- Tips start--> */
-/* .tip-cards {
-    margin-top: 25px;
-
-    position: relative;
-    align-items: stretch;
-    background-color: rgb(108, 243, 139);
-    margin: 75px;
-    padding: inherit;
-    height: 200px; 
-    
-} */
+.tip-cards {
+    background-color: #e31b99;
+    color: #ffffff;
+}
 
  .tips-container { 
     margin:50px 100px 50px 100px;
@@ -370,6 +365,10 @@ footer {
     .col-3 {
         width: 23%;
     }
+}
+
+.tutorial-videos .col-12.col-md-6.col-lg-3 {
+    padding: 0 10px;
 }
 
 /* Contact page styling */

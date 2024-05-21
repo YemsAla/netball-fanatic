@@ -30,13 +30,6 @@
     box-sizing: border-box;
 }
 
-
-
-body {
-    font-family: Lato;
-    color: #0e0e0e;
-}
-
 h1,
 h2,
 h3,
@@ -49,6 +42,26 @@ h6 {
     letter-spacing: 2px;
     /* color: ; */
 } 
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Lato;
+    color: #0e0e0e;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
 
 .test {
     border: #740303 1px solid;
@@ -77,10 +90,12 @@ h6 {
 }
 
 .hero {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;
     padding: 50px;
     border: 1px solid #000;
-    border-width: 2px;
+    border-width: 2px; */
+    /* background: url ("/workspace/netball-fanatic/assets/images/Group of netballers.png") no-repeat center center;
+    background-size: cover; */
 }
 
 .hero-image {
@@ -90,8 +105,24 @@ h6 {
     /* margin-top: 100px; */
 }
 
+.hero-text {
+    color: #fcf9fb;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: rgb(28, 139, 236);
+}
+
+.fa-solid {
+    font-weight: 700;
+}
+
 .how-to-play {
     color: #ffffff;
+    text-decoration: none;
+   }
+
+   .how-to-play a:hover {
+    text-decoration: underline;
    }
 
    .how-to-play-btn {
@@ -153,8 +184,10 @@ h6 {
    /* Footer styling */
 
    .footer-style {
-    height: 30px;
-    border-top: 0.5px none #4b4848;
+    /* height: 30px;
+    border-top: 0.5px none #4b4848; */
+    background-color: #343a40;
+    color: #ffffff;
 }
 
 .footer-style a i {

@@ -20,7 +20,7 @@ Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/i
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Wireframes](#wireframes)
-- [Usage](#usage)
+- [Colour palette](#colour-palette)
 - [Contributing](#contributing)
 - [References](#references)
 - [Contact](#contact)
@@ -71,9 +71,10 @@ Wireframes were created using Balsamiq and used as a blueprint for development o
 ![alt text](image-4.png)
 ![alt text](image-5.png)
 
-## Usage
+## Color Palette
 
-Visit the website at the provided URL to explore the content. Use the navigation menu to access different sections and learn about netball. Feel free to share the site with others who might be interested in the sport.
+![alt text](image.png)
+The website uses a palette of colours based around the bespoke logo image. The colour palette was created using the Coolors website.
 
 ## Contributing
 

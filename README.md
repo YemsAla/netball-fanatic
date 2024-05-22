@@ -73,7 +73,7 @@ Wireframes were created using Balsamiq and used as a blueprint for development o
 
 ## Color Palette
 
-![alt text](image.png)
+![alt text](coolors-palette.png)
 The website uses a palette of colours based around the bespoke logo image. The colour palette was created using the Coolors website.
 
 ## User Stories

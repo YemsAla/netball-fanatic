@@ -63,66 +63,22 @@
         <!-- Navigation Bar Ends -->
     </header>
 
-    <main>
-        <section>
-            <!-- Form page title -->
-            <div class="container-fluid justify-content-center">
-                <div class="row mt-4">
-                    <div class="col-12 text-center">
-                        <h3>Feedback</h3>
+    <main class="flex-grow-1">
+        <section id="signup" class="d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row mb-4 contact-form p-2">
+                <div class="info-box d-flex flex-column justify-content-center">
+                <div class="card border-0 text-center mt-4">
+                    <div class="card-body">
+                      <div class="card-title">
+                        <h2>Thank you for your feedback!</h2>
+                      </div>
                     </div>
                 </div>
-             
-                <div class="container mt-3">
-                    <p class="lead text-center">
-                        I hope you are enjoying this site and are learning all about the game of netball. 
-                    </p>
-                    <p class="lead text-center">
-                        Let us know what you think of the site so far or simply ask a question using the form below. Thank you.
-                    </p>
-                </div>
-
-                <!-- Form -->
-                <div class="container">
-                    <div class="row justify-content-center mt-4">
-                        <div class="col-12 col-md-6">
-                            <form id="feedback-form" aria-label="Feedback Form" method="POST" action="thankyou.html">
-                                
-                                <!-- First Name -->
-                                <div class="form-control">
-                                    <input class="text-input" type="text" name="first_name" placeholder="First Name" aria-label="First name" required />
-                                </div>
-                                <br />
-                                <!-- Last Name-->
-                                <div class="form-control">
-                                    <input class="text-input" type="text" name="last_name" placeholder="Last Name" aria-label="Last name" required />
-                                </div>
-
-                                <br />
-
-                                <!-- Email Address -->
-                                <div class="form-control">
-                                    <input class="text-input" type="email" name="email_address" placeholder="Email Address" aria-label="Email address" required />
-                                </div>
-
-                                <br />
-
-                                <!--Text Box-->
-                                <div class="form-control">
-                                    <textarea cols="50" rows="10" name="feedback" placeholder="Tell us how we're doing or ask a question..." aria-label="Ask a question or give feedback" required></textarea>
-                                    <br />
-                                </div>
-
-                                <!--Submit Button-->
-                                <div class="mt-4 text-center">
-                                    <input class="button-link" type="submit" value="Submit" />
-                                </div>
-                            </form>
-                        </div> 
-                    </div>
                 </div>
             </div>
-        </section>    
+        </div>
+        </section>  
     </main>
 
     <footer class="mt-auto">

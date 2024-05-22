@@ -64,12 +64,13 @@ The website consists of the following pages:
 
 Wireframes were created using Balsamiq and used as a blueprint for development of the site layout and structure.
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
+- assets/images/homepage-wireframes.png
+- assets/images/about-wireframe-1.png
+- assets/images/about-wireframe.png
+- assets/images/about-narrow-wf.png
+- assets/images/playing-wireframe.png
+- assets/images/playing-narrow-wf.png
+
 
 ## Color Palette
 

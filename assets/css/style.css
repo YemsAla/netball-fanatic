@@ -413,3 +413,7 @@ footer {
         width: 90%;
     }
 }
+
+.card-body h2 {
+    border-bottom: 2px solid #c50a80;
+}

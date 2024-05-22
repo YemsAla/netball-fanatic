@@ -21,7 +21,7 @@ Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/i
 - [Technologies Used](#technologies-used)
 - [Wireframes](#wireframes)
 - [Colour palette](#colour-palette)
-- [Contributing](#contributing)
+- [User Stories](#user-stories)
 - [References](#references)
 - [Contact](#contact)
 
@@ -76,24 +76,25 @@ Wireframes were created using Balsamiq and used as a blueprint for development o
 ![alt text](image.png)
 The website uses a palette of colours based around the bespoke logo image. The colour palette was created using the Coolors website.
 
-## Contributing
+## User Stories
 
-Contributions to improve the website are welcome! To contribute:
+### User Goals
+- To be able to view the site on a range of device sizes.
+- To make it easy for potential netball enthusiasts to find out about the sport and how to get involved.
+- To provide clear information about upcoming netball events and activities.
+- To allow visitors to contact Netball Fanatix for further questions or feedback.
 
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-3. Make your changes and commit them:
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-5. Open a pull request to merge your changes.
+### First Time Visitor Goals
+- I want to find out what Netball Fanatix is and how I can get involved in netball.
+- I want to be able to navigate the site easily to find information about netball.
+- I want to be able to find their social media profiles for more updates and engagement.
+
+### Returning Visitor Goals
+- I want to find up-to-date information on upcoming netball events and activities.
+- I want to be able to easily contact Netball Fanatix with questions or feedback.
+
+### Frequent Visitor Goals
+- I want to be able to recommend drills, tutorials or tips for inclusion on the site.
 
 ## References
 
@@ -105,6 +106,8 @@ Contributions to improve the website are welcome! To contribute:
     - Used for HTML & CSS code 
 - Source: Bootstrap | [Link:https://getbootstrap.com/]
     - Used for styling
+- Source: Chat GPT [Link:https://chatgpt.com/]
+    - For content & research
 - Picture References
 - Source: Cynon Netball Club | [Link:https://connectrct.org.uk/activity/cynon-back-to-netball-club]
 - Source: Gilbert Netball | [Link:https://www.gilbert-netball.com/blogs/netball/netball-101]
@@ -117,7 +120,8 @@ Contributions to improve the website are welcome! To contribute:
 - Source: intosport.com | [Link:https://www.youtube.com/watch?v=TvfGjq7cWfA]
 - Source: Netball Australia| [Link:https://www.youtube.com/watch?v=N_kiYeeYvkU&t=12s]
 - Source: Netball Australia| [Link:https://www.youtube.com/watch?v=lzPJPCg5SCg]
-- Source: Netball Australia| [Link:https://www.youtube.com/watch?v=rtnDm52t_eM&list=PLgCNJssaP1-xN6wILskPThBNxXFrNX368&index=5]
+- Source: Netball Australia| [Link:https://www.youtube.com/watch?v=rtnDm52t_eM&list=PLgCNJssaP1-xN6wILskPThBNxXFrNX368&index=5] 
+
 
 
 ## Contact

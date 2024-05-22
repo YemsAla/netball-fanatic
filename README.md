@@ -57,7 +57,7 @@ The website consists of the following pages:
 - **Bootstrap**: For responsive design and additional styling components.
 - **Git & GitHub Pages**: Used to securely store the code and to host and deploy the live project.
 - **GitPod**: Used as a cloud-based IDE for development
-- **Chrome Developer Tools**: Used for testing and troublshooting code, along with Lighthouse auditing
+- **Chrome Developer Tools**: Used for testing and troublshooting code
 - **Balsamiq**: Used to create wireframes during project planning
 
 ## Wireframes

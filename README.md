@@ -9,7 +9,7 @@ The site provides useful and comprehensive education on netball rules, positions
 
 ## Website 
 
-![Responsivity screenshot](netball-fanatix-responsive-screenshot.png)
+![Responsivity screenshot](../assets/images/netball-fanatix-responsive-screenshot.png)
 
 Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/index.html)
 
@@ -18,10 +18,13 @@ Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/i
 - [Introduction](#introduction)
 - [Pages](#pages)
 - [Features](#features)
+- [User Stories](#user-stories)
 - [Technologies Used](#technologies-used)
 - [Wireframes](#wireframes)
 - [Colour palette](#colour-palette)
-- [User Stories](#user-stories)
+- [Testing](#testing)
+- [User Stories testing](#user-stories-testing)
+- [Deployment](#deployment)
 - [References](#references)
 - [Contact](#contact)
 

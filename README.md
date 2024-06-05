@@ -9,26 +9,30 @@ The site provides useful and comprehensive education on netball rules, positions
 
 ## Website 
 
-![Responsivity screenshot](../assets/images/netball-fanatix-responsive-screenshot.png)
+![Responsivity screenshot](assets/images/netball-fanatix-responsive-screenshot.png)
 
 Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/index.html)
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [IProject Goals](#project-goals)
 - [Pages](#pages)
 - [Features](#features)
-- [User Stories](#user-stories)
+- [User Experience](#user-experience)
+    - [User Stories](#user-stories)
+    - [Design](#design)
+        - Color Scheme
+        - Typography
+        - Imagery
+        - Wireframes
 - [Technologies Used](#technologies-used)
-- [Wireframes](#wireframes)
-- [Colour palette](#colour-palette)
 - [Testing](#testing)
-- [User Stories testing](#user-stories-testing)
+- [User Stories Testing](#user-stories-testing)
 - [Deployment](#deployment)
 - [References](#references)
 - [Contact](#contact)
 
-## Introduction
+## Project Goals
 
 Netball Fanatix is a resource for netball enthusiasts and beginners alike. 
 The site aims to provide valuable information about the sport including its history, basic rules & positions and essential skills.
@@ -45,12 +49,64 @@ The website consists of the following pages:
 
 ## Features
 
+- A mobile-first, fully responsive site design accessible on all types of devices.
 - Informative content on netball history, rules, positions and skills.
+- Links to access other areas within the site as well as external sites.
 - Tooltip images to learn more about positions.
 - Tip cards to reveal useful advice about how to play netball.
+- iframe YouTube videos to learn more on Tips & Skills page.
 - Easy navigation with a main menu and structured layout.
-- Contact form for user inquiries and feedback.
+- Contact page with contact form for user inquiries and feedback.
+- Header & footer navigation used on all pages across the site.
+- Navigation toggle button (hamburger) on narrow devices.
 - Social media link for further engagement.
+
+## User Experience
+
+### User Stories
+
+#### User Goals
+- To be able to view the site on a range of device sizes.
+- To make it easy for potential netball enthusiasts to find out about the sport and how to get involved.
+- To provide clear information about upcoming netball events and activities.
+- To allow visitors to contact Netball Fanatix for further questions or feedback.
+
+#### First Time Visitor Goals
+- I want to find out what Netball Fanatix is and how I can get involved in netball.
+- I want to be able to navigate the site easily to find information about netball.
+- I want to be able to find their social media profiles for more updates and engagement.
+
+#### Returning Visitor Goals
+- I want to find up-to-date information on upcoming netball events and activities.
+- I want to be able to easily contact Netball Fanatix with questions or feedback.
+
+#### Frequent Visitor Goals
+- I want to be able to recommend drills, tutorials or tips for inclusion on the site.
+
+### Design
+
+- Color Palette
+
+![Color palette](assets/images/coolors-palette.png)
+The website uses a palette of colours based around the bespoke logo image to maintain a standard identity across all pages. The colour palette was created using the Coolors website.
+
+- Typography
+
+
+- Imagery
+
+
+- Wireframes
+
+Wireframes were created for each page in wide and narrow views, using Balsamiq. These were used as a guide for development of the site layout and structure.
+
+- ![homepage-wireframes](assets/images/homepage-wireframes.png)
+- ![about-wireframe-1](assets/images/about-wireframe-1.png)
+- ![about-wireframe](assets/images/about-wireframe.png)
+- ![about-narrow-wf](assets/images/about-narrow-wf.png)
+- ![playing-wireframe](assets/images/playing-wireframe.png)
+- ![playing-narrow-wf](assets/images/playing-narrow-wf.png)
+
 
 ## Technologies Used
 
@@ -63,42 +119,9 @@ The website consists of the following pages:
 - **Chrome Developer Tools**: Used for testing and troublshooting code
 - **Balsamiq**: Used to create wireframes during project planning
 
-## Wireframes
+## User Stories Testing
 
-Wireframes were created using Balsamiq and used as a blueprint for development of the site layout and structure.
-
-- ![homepage-wireframes](assets/images/homepage-wireframes.png)
-- ![about-wireframe-1](assets/images/about-wireframe-1.png)
-- ![about-wireframe](assets/images/about-wireframe.png)
-- ![about-narrow-wf](assets/images/about-narrow-wf.png)
-- ![playing-wireframe](assets/images/playing-wireframe.png)
-- ![playing-narrow-wf](assets/images/playing-narrow-wf.png)
-
-
-## Color Palette
-
-![alt text](coolors-palette.png)
-The website uses a palette of colours based around the bespoke logo image. The colour palette was created using the Coolors website.
-
-## User Stories
-
-### User Goals
-- To be able to view the site on a range of device sizes.
-- To make it easy for potential netball enthusiasts to find out about the sport and how to get involved.
-- To provide clear information about upcoming netball events and activities.
-- To allow visitors to contact Netball Fanatix for further questions or feedback.
-
-### First Time Visitor Goals
-- I want to find out what Netball Fanatix is and how I can get involved in netball.
-- I want to be able to navigate the site easily to find information about netball.
-- I want to be able to find their social media profiles for more updates and engagement.
-
-### Returning Visitor Goals
-- I want to find up-to-date information on upcoming netball events and activities.
-- I want to be able to easily contact Netball Fanatix with questions or feedback.
-
-### Frequent Visitor Goals
-- I want to be able to recommend drills, tutorials or tips for inclusion on the site.
+## Deployment
 
 ## References
 

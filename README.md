@@ -1,6 +1,4 @@
-README.md
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Netball Fanatix logo](assets/images/netball-fanatix-logo.png)
 
 # Netball Fanatix
 ## Fanatic about netball
@@ -9,7 +7,9 @@ Welcome to Netball Fanatix!
 This is a static front-end website designed to teach people about the game of netball. 
 The site provides useful and comprehensive education on netball rules, positions, skills and more to help users understand and enjoy the sport.
 
-## Website URL
+## Website 
+
+![Responsivity screenshot](netball-fanatix-responsive-screenshot.png)
 
 Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/index.html)
 

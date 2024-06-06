@@ -85,18 +85,50 @@ The website consists of the following pages:
 
 ### Design
 
-- Color Palette
+##### Color Palette
 
 ![Color palette](assets/images/coolors-palette.png)
 The website uses a palette of colours based around the bespoke logo image to maintain a standard identity across all pages. The colour palette was created using the Coolors website.
 
-- Typography
+##### Typography
+
+The typography used on the Netball Fanatix site focuses on readability and a modern, clean aesthetic.
+
+The Maitree font is used for title headings and navigation with sans-serif as a fall-back option should the chosen font fail to function properly. 
+Quicksand & Roboto are used as the main fonts for the body content with serif as the fallback font should fthe chosen fonts not load correctly to the website. 
+
+- Font Sizes
+
+The font sizes are appropriately varied to create a clear visual hierarchy. Larger sizes are used for headings and titles, making them stand out and guide the user's attention. Body text is set at a comfortable reading size.
+
+- Font Weights
+ A mix of font weights is used to differentiate between various text elements. Bold weights are used for headings and important information, while regular weights are used for body text.
+
+- Text Alignment
+
+Text alignment is primarily left-aligned, which is the most readable format for English text. Center alignment is used sparingly for elements such as titles and form labels to create emphasis.
+
+- Line Spacing and Letter Spacing
+Generous line spacing and appropriate letter spacing ensure that the text is not cramped, improving overall legibility.
 
 
-- Imagery
+##### Imagery
+
+The imagery on the Netball Fanatix site is carefully selected to enhance the user experience and visually represent the sport of netball. Key features include:
+
+- High-Quality Images
+The site uses high-resolution images to create a professional and engaging visual appeal.
+
+- Relevant Visuals
+Images depict netball players, candid shots from games and a court outline, aligning with the site's theme and content.
+
+- Placement
+Images are strategically placed to complement the text, breaking up content and making the site more visually appealing.
+
+Overall, the imagery is designed to effectively support the site's purpose, engaging visitors and enhancing the overall look.
 
 
-- Wireframes
+### Wireframes
 
 Wireframes were created for each page in wide and narrow views, using Balsamiq. These were used as a guide for development of the site layout and structure.
 
@@ -110,11 +142,17 @@ Wireframes were created for each page in wide and narrow views, using Balsamiq. 
 
 ## Technologies Used
 
+### Languages Used
+
 - **HTML5**: For structuring the content on the website.
 - **CSS3**: For styling and layout.
-- **Javascript**: For styling
-- **Bootstrap**: For responsive design and additional styling components.
-- **Git & GitHub Pages**: Used to securely store the code and to host and deploy the live project.
+
+### Frameworks, Libraries & Programs Used
+
+- **Javascript**: Used to help with styling and responsiveness.
+- [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): For responsive design and additional styling components.
+- [Google Fonts](https://fonts.google.com/):Google fonts was used to import the 'Maitree, Quicksand & Roboto' fonts into the style.css file.
+- **Git & GitHub Pages**: Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. Also to securely store the code and to host and deploy the live project.
 - **GitPod**: Used as a cloud-based IDE for development
 - **Chrome Developer Tools**: Used for testing and troublshooting code
 - **Balsamiq**: Used to create wireframes during project planning

@@ -15,7 +15,7 @@ Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/i
 
 ## Table of Contents
 
-- [IProject Goals](#project-goals)
+- [Project Goals](#project-goals)
 - [Pages](#pages)
 - [Features](#features)
 - [User Experience](#user-experience)
@@ -27,7 +27,6 @@ Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/i
         - Wireframes
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
-- [User Stories Testing](#user-stories-testing)
 - [Deployment](#deployment)
 - [References](#references)
 - [Contact](#contact)
@@ -49,6 +48,8 @@ The website consists of the following pages:
 
 ## Features
 
+### Existing Features
+
 - A mobile-first, fully responsive site design accessible on all types of devices.
 - Informative content on netball history, rules, positions and skills.
 - Links to access other areas within the site as well as external sites.
@@ -60,6 +61,14 @@ The website consists of the following pages:
 - Header & footer navigation used on all pages across the site.
 - Navigation toggle button (hamburger) on narrow devices.
 - Social media link for further engagement.
+
+### Post MVP Features
+
+- Events Section: A dedicated section or page where upcoming netball events and activities are listed.
+- Regular Updates: Frequent updates on the homepage or a news section to inform visitors about the latest events and news related to netball.
+- Calendar Integration: An integrated calendar or schedule displaying upcoming events, ensuring users can easily see what's next.
+- Engagement Features: Interactive elements like comment sections or forums where frequent visitors can discuss and suggest new content.
+- Community Involvement: Encouraging user-generated content and highlighting visitor contributions on the site, making frequent visitors feel their input is valued and implemented.
 
 ## User Experience
 
@@ -157,35 +166,77 @@ Wireframes were created for each page in wide and narrow views, using Balsamiq. 
 - **Chrome Developer Tools**: Used for testing and troublshooting code
 - **Balsamiq**: Used to create wireframes during project planning
 
-## User Stories Testing
+## Testing
+
+### Testing User Stories
+
+#### First Time Visitor Goals
+- I want to find out what Netball Fanatix is and how I can get involved in netball.
+    - Clear Mission Statement: The homepage and various sections highlight the purpose and goals of Netball Fanatix, making it clear what the site is about, particularly in the "What is Netball" section.
+
+    ![Homepage Mission Statement](assets/images/testing-images/nf-mission-statement.png)
+
+    - About Netball Page: Provides comprehensive information on netball, including its history and significance.
+
+    ![Netball History](assets/images/testing-images/assets/images/testing-images/netball-history.png)
+
+    - Playing Netball Page: Offers tips, drills and video tutorials, guiding visitors on how to get started and improve their skills.
+
+    ![Netball Tips](assets/images/testing-images/netball-tips.png)
+
+- I want to be able to navigate the site easily to find information about netball.
+    - Responsive Design: Ensures the site is accessible and easy to navigate on all device sizes.
+    - Intuitive Menu: A well-structured navigation bar with clear labels and dropdowns, making it easy to find relevant sections.
+    - Consistent Layout: Uniform design elements and page structures help users quickly locate information across different pages.
+
+    ![Header Navigation](assets/images/testing-images/nav-dropdown.png)
+
+- I want to be able to find their social media profiles for more updates and engagement.
+    - Footer Links: Social media icon with link to relevant site (e.g. England Netball) is prominently displayed in the footer.
+    - Contact Page: Provides additional means to connect and follow updates via the form, ensuring visitors can engage further.
+
+    ![Footer Links](assets/images/testing-images/footer-links.png)
+
+#### Returning Visitor Goals
+- I want to find up-to-date information on upcoming netball events and activities.
+    - Homepage: Users can easily navigate to the England Netball website via the footer link to find out about current events and activities in their local area.
+- I want to be able to easily contact Netball Fanatix with questions or feedback.
+    - Contact Page: A user-friendly contact form allowing visitors to submit their questions or feedback easily.
+
+     ![Feedback form](assets/images/testing-images/feedback-form.png)
+
+#### Frequent Visitor Goals
+- I want to be able to recommend drills, tutorials or tips for inclusion on the site.
+    - Contact Page: Users can use the feedback form to submit suggestions or recommendations for other tips, drills and tutorials
+    - These goals would be further addressed with the planned post-MVP features such as Engagement Feature & Community Involvement.
 
 ## Deployment
 
 ## References
 
-- Source: YouTube | Arjun Khara | [Link:https://youtu.be/OV8MVmtgmoY]
+- Source: YouTube | Arjun Khara | [Link: https://youtu.be/OV8MVmtgmoY]
     - Used for inspiration for flip card code
-- Source: Slack | Vernell C | [Link:https://github.com/VCGithubCode]
+- Source: Slack | Vernell C | [Link: https://github.com/VCGithubCode]
     - Fellow student who provided invaluable mentorship and support during each stage of the project and especially in debugging
-- Source: W3Schools | [Link:https://www.w3schools.com/]
+- Source: W3Schools | [Link: https://www.w3schools.com/]
     - Used for HTML & CSS code 
-- Source: Bootstrap | [Link:https://getbootstrap.com/]
+- Source: Bootstrap | [Link: https://getbootstrap.com/]
     - Used for styling
-- Source: Chat GPT [Link:https://chatgpt.com/]
+- Source: Chat GPT [Link: https://chatgpt.com/]
     - For content & research
 - Picture References
-- Source: Cynon Netball Club | [Link:https://connectrct.org.uk/activity/cynon-back-to-netball-club]
-- Source: Gilbert Netball | [Link:https://www.gilbert-netball.com/blogs/netball/netball-101]
-- Source: Linked-In |The Pivot Newsletter | [https://www.linkedin.com/pulse/pivot-jacob-william-gooden/]
-- Source: England Netball | [https://www.linkedin.com/pulse/pivot-jacob-william-gooden/]
-- Source: Netball Australia |[https://netball.com.au/news/immense-sense-achievement-and-pride-teede-recalls-71-world-netball-tournament]
-- Source: World Netball | [Link:https://netball.sport/game/facilities-and-equipment/]
-- Source: Play Netball | [Link:https://www.play-netball.co.uk/rules-and-regulations/]
+    - Source: Cynon Netball Club | [Link: https://connectrct.org.uk/activity/cynon-back-to-netball-club]
+    - Source: Gilbert Netball | [Link: https://www.gilbert-netball.com/blogs/netball/netball-101]
+    - Source: Linked-In |The Pivot Newsletter | [https://www.linkedin.com/pulse/pivot-jacob-william-gooden/]
+    - Source: England Netball | [https://www.linkedin.com/pulse/pivot-jacob-william-gooden/]
+    - Source: Netball Australia |[https://netball.com.au/news/immense-sense-achievement-and-pride-teede-recalls-71-world-netball-tournament]
+    - Source: World Netball | [Link: https://netball.sport/game/facilities-and-equipment/]
+    - Source: Play Netball | [Link: https://www.play-netball.co.uk/rules-and-regulations/]
 - Videos
-- Source: intosport.com | [Link:https://www.youtube.com/watch?v=TvfGjq7cWfA]
-- Source: Netball Australia| [Link:https://www.youtube.com/watch?v=N_kiYeeYvkU&t=12s]
-- Source: Netball Australia| [Link:https://www.youtube.com/watch?v=lzPJPCg5SCg]
-- Source: Netball Australia| [Link:https://www.youtube.com/watch?v=rtnDm52t_eM&list=PLgCNJssaP1-xN6wILskPThBNxXFrNX368&index=5] 
+    - Source: intosport.com | [Link: https://www.youtube.com/watch?v=TvfGjq7cWfA]
+    - Source: Netball Australia| [Link: https://www.youtube.com/watch?v=N_kiYeeYvkU&t=12s]
+    - Source: Netball Australia| [Link: https://www.youtube.com/watch?v=lzPJPCg5SCg]
+    - Source: Netball Australia| [Link: https://www.youtube.com/watch?v=rtnDm52t_eM&list=PLgCNJssaP1-xN6wILskPThBNxXFrNX368&index=5] 
 
 
 

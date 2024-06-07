@@ -230,7 +230,7 @@ Each page of the project was thoroughly checked for syntax errors using the W3C 
 |  Page        | Result           | Notes  |
 | ------------- |:-------------:| -----:|
 | Home    | ![Homepage code validation](assets/images/testing-images/code-validation-homepage.png)  |  No errors |
-| About Netball    |      |    |
+| About Netball    |  ![About page code validation](assets/images/testing-images/code-validation-about-page.png)    |    |
 | Playing Netball |     |    |
 | Contact |       |     |
 

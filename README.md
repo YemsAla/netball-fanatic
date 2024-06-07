@@ -1,7 +1,11 @@
+<div style="background-color: dark-grey; padding: 20px;">
+
 ![Netball Fanatix logo](assets/images/netball-fanatix-logo.png)
 
 # Netball Fanatix
 ## Fanatic about netball
+
+### Introduction
 
 Welcome to Netball Fanatix! 
 This is a static front-end website designed to teach people about the game of netball. 
@@ -210,6 +214,15 @@ Wireframes were created for each page in wide and narrow views, using Balsamiq. 
     - Contact Page: Users can use the feedback form to submit suggestions or recommendations for other tips, drills and tutorials
     - These goals would be further addressed with the planned post-MVP features such as Engagement Feature & Community Involvement.
 
+### Overall Performance
+
+| Page        | Result           | Notes  |
+| ------------- |:-------------:| -----:|
+| Homepage      | ![Homepage performance](assets/images/testing-images/homepage-performance-test.png) | Some warnings for mobile performance |
+| About Netball      | ![About page performance](assets/images/testing-images/about-page-performance.png)    |    |
+| Playing Netball |  ![Playing page performance](assets/images/testing-images/playing-page-performance.png)    |     |
+| Contact |   ![Contact page performance](assets/images/testing-images/contact-page-performance.png)    |     |
+
 ## Deployment
 
 ## References
@@ -247,3 +260,4 @@ For any inquiries or feedback, please contact us via the contact form on the web
 Thank you for visiting Netball Fanatix!
 
 ---
+</div>

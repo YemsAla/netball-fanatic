@@ -218,7 +218,7 @@ Wireframes were created for each page in wide and narrow views, using Balsamiq. 
 
 | Page        | Result           | Notes  |
 | ------------- |:-------------:| -----:|
-| Home |
+| Home |    |      |
 | About Netball      | ![About page performance](assets/images/testing-images/about-page-performance.png)    |  Some areas for improvement but good overall  |
 | Playing Netball |  ![Playing page performance](assets/images/testing-images/playing-page-performance.png)    |  More work is needed to improve performance   |
 | Contact |   ![Contact page performance](assets/images/testing-images/contact-page-performance.png)    |  This is the best performing page with 100% accessibility   |
@@ -229,7 +229,7 @@ Each page of the project was thoroughly checked for syntax errors using the W3C 
 
 |  Page        | Result           | Notes  |
 | ------------- |:-------------:| -----:|
-| Home    |  |  |
+| Home    | ![Homepage code validation](assets/images/testing-images/code-validation-homepage.png)  |  No errors |
 | About Netball    |      |    |
 | Playing Netball |     |    |
 | Contact |       |     |

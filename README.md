@@ -229,10 +229,10 @@ Each page of the project was thoroughly checked for syntax errors using the W3C 
 
 |  Page        | Result           | Notes  |
 | ------------- |:-------------:| -----:|
-| Home    | ![Homepage code validation](assets/images/testing-images/code-validation-homepage.png)  |  No errors |
-| About Netball    |  ![About page code validation](assets/images/testing-images/code-validation-about-page.png)    |    |
-| Playing Netball |     |    |
-| Contact |       |     |
+| Home | ![Homepage code validation](assets/images/testing-images/code-validation-homepage.png)  |  No errors |
+| About Netball | [About page code validation](assets/images/testing-images/code-validation-about-page.png)    | No errors   |
+| Playing Netball |![Playing page code validation](assets/images/testing-images/code-validation-playing-page.png)    |  No errors  |
+| Contact |![Playing page code validation](assets/images/testing-images/code-validation-playing-page.png)    | No errors  |
 
 ## Deployment
 

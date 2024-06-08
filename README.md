@@ -233,6 +233,7 @@ Each page of the project was thoroughly checked for syntax errors using the W3C 
 | About Netball | ![About page code validation](assets/images/testing-images/code-validation-about-page.png)    | No errors   |
 | Playing Netball |![Playing page code validation](assets/images/testing-images/code-validation-playing-page.png)    |  No errors  |
 | Contact |![Playing page code validation](assets/images/testing-images/code-validation-contact-page.png)    | No errors  |
+| CSS |![CSS code validation]()    |   |
 
 ## Deployment
 

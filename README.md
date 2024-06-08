@@ -223,7 +223,7 @@ Wireframes were created for each page in wide and narrow views, using Balsamiq. 
 | Playing Netball |  ![Playing page performance](assets/images/testing-images/playing-page-performance.png)    |  More work is needed to improve performance   |
 | Contact |   ![Contact page performance](assets/images/testing-images/contact-page-performance.png)    |  This is the best performing page with 100% accessibility   |
 
-## Code Validation
+### Code Validation
 
 Each page of the project was thoroughly checked for syntax errors using the W3C Markup Validator and W3C CSS Validator Services. The validation results and corresponding screenshots are presented in the table below.
 
@@ -234,6 +234,13 @@ Each page of the project was thoroughly checked for syntax errors using the W3C 
 | Playing Netball |![Playing page code validation](assets/images/testing-images/code-validation-playing-page.png)    |  No errors  |
 | Contact |![Playing page code validation](assets/images/testing-images/code-validation-contact-page.png)    | No errors  |
 | CSS |![CSS code validation]()    |   |
+
+### Browser Testing
+
+- The site has been tested on Google Chrome, Safari, Microsoft Edge and Firefox browsers.
+- The website was tested on my iPhone 11 mobile and 27" iMac devices. All other responsive testing was completed online.
+- Testing was done to ensure that all pages were linking correctly and external links opened in a new tab.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ## Deployment
 

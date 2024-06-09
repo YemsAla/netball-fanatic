@@ -233,14 +233,28 @@ Each page of the project was thoroughly checked for syntax errors using the W3C 
 | About Netball | ![About page code validation](assets/images/testing-images/code-validation-about-page.png)    | No errors   |
 | Playing Netball |![Playing page code validation](assets/images/testing-images/code-validation-playing-page.png)    |  No errors  |
 | Contact |![Playing page code validation](assets/images/testing-images/code-validation-contact-page.png)    | No errors  |
-| CSS |![CSS code validation]()    |   |
+| CSS |![CSS code validation](assets/images/testing-images/code-validation-css.png)    | Still working to resolve parsing error  |
 
 ### Browser Testing
 
 - The site has been tested on Google Chrome, Safari, Microsoft Edge and Firefox browsers.
-- The website was tested on my iPhone 11 mobile and 27" iMac devices. All other responsive testing was completed online.
+- The website was tested on my iPhone 13 mobile. All other responsive testing was completed online.
 - Testing was done to ensure that all pages were linking correctly and external links opened in a new tab.
-- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+- Friends and family members reviewed the site and documentation to point out any bugs and/or user experience issues.
+
+### Bug fixes
+
+1. I had a lot of issues with my initial workspace being set up on Gitpod, which I was unable to resolve. I ended up swithcing to VS-Code Desktop as an IDE and started working locally so I could continue with my project development.
+However, I was later able to create a new Gitpod workspace and link it with my project on VS-Code but that came with a new set of problems because I ended up working on 2 separate branches and some changes were not being pushed to the main.
+I did a lot of work to merge the work in both branches and continue working in one space eventually.
+
+2. On the 'About Netball' page, the bib positions column was overlapping the 'rules' column in mobile view. So I did some work to hide both columns in mobile view to ensure the layout of the page remained clean - see screenshot 
+
+| Desktop       | Mobile           |
+| ------------- |:-------------:|
+| ![About page desktop](assets/images/testing-images/about-page-desktop.png)     | ![About page mobile 1](assets/images/testing-images/about-page-mobile1.png) ![About page mobile 2](assets/images/testing-images/about-page-mobile2.png) |
+
+3. 
 
 ## Deployment
 

@@ -32,7 +32,7 @@ Visit the site at: [Netball Fanatix](https://yemsala.github.io/netball-fanatic/i
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [References](#references)
+- [Credits](#credits)
 - [Contact](#contact)
 
 ## Project Goals
@@ -163,8 +163,8 @@ Wireframes were created for each page in wide and narrow views, using Balsamiq. 
 ### Frameworks, Libraries & Programs Used
 
 - **Javascript**: Used to help with styling and responsiveness.
-- [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): For responsive design and additional styling components.
-- [Google Fonts](https://fonts.google.com/):Google fonts was used to import the 'Maitree, Quicksand & Roboto' fonts into the style.css file.
+- [**Bootstrap 5**](https://getbootstrap.com/docs/5.3/getting-started/introduction/): For responsive design and additional styling components.
+- [**Google Fonts**](https://fonts.google.com/): Google fonts was used to import the 'Maitree, Quicksand & Roboto' fonts into the style.css file.
 - **Git & GitHub Pages**: Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. Also to securely store the code and to host and deploy the live project.
 - **GitPod**: Used as a cloud-based IDE for development
 - **Chrome Developer Tools**: Used for testing and troublshooting code
@@ -216,6 +216,21 @@ Wireframes were created for each page in wide and narrow views, using Balsamiq. 
 
 ### Overall Performance
 
+#### Chrome DevTools Audit Report
+
+The Google Page-speed Services were used to assess the accessibiity of the project to ensure the site met expected accessible standards on desktop and mobile.
+
+![Homepage code validation](assets/images/testing-images/code-validation-homepage.png) 
+
+### Browser Testing
+
+- The site has been tested on Google Chrome, Safari, Microsoft Edge and Firefox browsers.
+- The website was tested on my iPhone 13 mobile. All other responsive testing was completed online.
+- Testing was done to ensure that all pages were linking correctly and external links opened in a new tab.
+- Friends and family members reviewed the site and documentation to point out any bugs and/or user experience issues.
+
+#### Performance By Page
+
 | Page        | Result           | Notes  |
 | ------------- |:-------------:| -----:|
 | Home | ![Home page performance](assets/images/testing-images/homepage-performance-test.png)   |   Reasonably good performance with areas for improvement   |
@@ -229,18 +244,11 @@ Each page of the project was thoroughly checked for syntax errors using the W3C 
 
 |  Page        | Result           | Notes  |
 | ------------- |:-------------:| -----:|
-| Home | ![Homepage code validation](assets/images/testing-images/code-validation-homepage.png)  |  No errors |
+| Home | ![Homepage code validation](assets/images/testing-images/homepage-performance-test1.png)  |  No errors |
 | About Netball | ![About page code validation](assets/images/testing-images/code-validation-about-page.png)    | No errors   |
 | Playing Netball |![Playing page code validation](assets/images/testing-images/code-validation-playing-page.png)    |  No errors  |
 | Contact |![Playing page code validation](assets/images/testing-images/code-validation-contact-page.png)    | No errors  |
 | CSS |![CSS code validation](assets/images/testing-images/code-validation-css.png)    | Still working to resolve parsing error  |
-
-### Browser Testing
-
-- The site has been tested on Google Chrome, Safari, Microsoft Edge and Firefox browsers.
-- The website was tested on my iPhone 13 mobile. All other responsive testing was completed online.
-- Testing was done to ensure that all pages were linking correctly and external links opened in a new tab.
-- Friends and family members reviewed the site and documentation to point out any bugs and/or user experience issues.
 
 ### Bug fixes
 
@@ -254,37 +262,89 @@ I did a lot of work to merge the work in both branches and continue working in o
 | ------------- |:-------------:|
 | ![About page desktop](assets/images/testing-images/about-page-desktop.png)     | ![About page mobile 1](assets/images/testing-images/about-page-mobile1.png) ![About page mobile 2](assets/images/testing-images/about-page-mobile2.png) |
 
-3. 
-
 ## Deployment
 
-## References
+### Github Pages
 
-- Source: YouTube | Arjun Khara | [Link: https://youtu.be/OV8MVmtgmoY]
+1. Access Your GitHub Repository
+    - Log into GitHub and navigate to the repository you're working with.
+    
+2. Find the "Settings" Option
+    - Within your repository's page (not the top of the GitHub site), find and click the "Settings" button in the menu bar.
+
+3. Navigate to GitHub Pages Settings
+    - On the Settings page, scroll down until you find the "GitHub Pages" section.
+
+4. Select the Source for Your Site
+    - In the "Source" section, use the dropdown menu (initially set to "None") and select "Main Branch" (or "Master Branch" if that's what your repository uses).
+
+5. Wait for Page Refresh
+    - The page will refresh automatically after you select the branch.
+
+6. Scroll back down through the page to locate the now published site [link](https://yemsala.github.io/netball-fanatic/index.html)  in the "GitHub Pages" section.
+
+### Forking the GitHub Reository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+
+
+$ git clone https://github.com/YemsAla/netball-fanatic.git
+
+7. Press Enter. Your local clone will be created.
+
+$ git clone https://github.com/YemsAla/netball-fanatic.git
+
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+Click [Here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+### Acknowledgements
+
+- Cohort Leader Rachel Furlong for her continued support.
+- Tutor support at Code Institute for their support.
+- Vernell C | [https://github.com/VCGithubCode]
+    - Fellow student who provided invaluable mentorship and support during each stage of the project, especially in debugging.
+
+### References
+
+- Source: YouTube | Arjun Khara | [https://youtu.be/OV8MVmtgmoY]
     - Used for inspiration for flip card code
-- Source: Slack | Vernell C | [Link: https://github.com/VCGithubCode]
-    - Fellow student who provided invaluable mentorship and support during each stage of the project and especially in debugging
-- Source: W3Schools | [Link: https://www.w3schools.com/]
+- Source: W3Schools | [https://www.w3schools.com/]
     - Used for HTML & CSS code 
-- Source: Bootstrap | [Link: https://getbootstrap.com/]
-    - Used for styling
-- Source: Chat GPT [Link: https://chatgpt.com/]
+- Source: Chat GPT [https://chatgpt.com/]
     - For content & research
 - Picture References
-    - Source: Cynon Netball Club | [Link: https://connectrct.org.uk/activity/cynon-back-to-netball-club]
-    - Source: Gilbert Netball | [Link: https://www.gilbert-netball.com/blogs/netball/netball-101]
+    - Source: Cynon Netball Club | [https://connectrct.org.uk/activity/cynon-back-to-netball-club]
+    - Source: Gilbert Netball | [https://www.gilbert-netball.com/blogs/netball/netball-101]
     - Source: Linked-In |The Pivot Newsletter | [https://www.linkedin.com/pulse/pivot-jacob-william-gooden/]
     - Source: England Netball | [https://www.linkedin.com/pulse/pivot-jacob-william-gooden/]
     - Source: Netball Australia |[https://netball.com.au/news/immense-sense-achievement-and-pride-teede-recalls-71-world-netball-tournament]
-    - Source: World Netball | [Link: https://netball.sport/game/facilities-and-equipment/]
-    - Source: Play Netball | [Link: https://www.play-netball.co.uk/rules-and-regulations/]
+    - Source: World Netball | [https://netball.sport/game/facilities-and-equipment/]
+    - Source: Play Netball | [https://www.play-netball.co.uk/rules-and-regulations/]
 - Videos
-    - Source: intosport.com | [Link: https://www.youtube.com/watch?v=TvfGjq7cWfA]
-    - Source: Netball Australia| [Link: https://www.youtube.com/watch?v=N_kiYeeYvkU&t=12s]
-    - Source: Netball Australia| [Link: https://www.youtube.com/watch?v=lzPJPCg5SCg]
-    - Source: Netball Australia| [Link: https://www.youtube.com/watch?v=rtnDm52t_eM&list=PLgCNJssaP1-xN6wILskPThBNxXFrNX368&index=5] 
-
-
+    - Source: intosport.com | [https://www.youtube.com/watch?v=TvfGjq7cWfA]
+    - Source: Netball Australia| [https://www.youtube.com/watch?v=N_kiYeeYvkU&t=12s]
+    - Source: Netball Australia| [https://www.youtube.com/watch?v=lzPJPCg5SCg]
+    - Source: Netball Australia| [https://www.youtube.com/watch?v=rtnDm52t_eM&list=PLgCNJssaP1-xN6wILskPThBNxXFrNX368&index=5] 
 
 ## Contact
 

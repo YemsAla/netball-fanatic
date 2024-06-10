@@ -248,7 +248,7 @@ Each page of the project was thoroughly checked for syntax errors using the W3C 
 | About Netball | ![About page code validation](assets/images/testing-images/code-validation-about-page.png)    | No errors   |
 | Playing Netball |![Playing page code validation](assets/images/testing-images/code-validation-playing-page.png)    |  No errors  |
 | Contact |![Playing page code validation](assets/images/testing-images/code-validation-contact-page.png)    | No errors  |
-| CSS |![CSS code validation](assets/images/testing-images/w3c-css-validation.png)    | Still working to resolve parsing error  |
+| CSS |![CSS code validation](assets/images/testing-images/w3c-css-validation.png)    | Passed (initial parsing error resolved)  |
 
 ### Bug fixes
 
@@ -261,6 +261,9 @@ I did a lot of work to merge the work in both branches and continue working in o
 | Desktop       | Mobile           |
 | ------------- |:-------------:|
 | ![About page desktop](assets/images/testing-images/about-page-desktop.png)     | ![About page mobile 1](assets/images/testing-images/about-page-mobile1.png) ![About page mobile 2](assets/images/testing-images/about-page-mobile2.png) |
+
+3. On initial validation of my CSS code, I kept getting a parsing error for line 367, where I had an element nested inside another for the videos on the Playing Netball page and the validator didn't like that and therefore kept throwing up this error. 
+To solve this issue, I removed, the *.col-3* element out of the *.tutorial-videos* element and although I was worried it might affect the output, it didn't. After doing this, I was able to pass the CSS code validation (see relevent screenshot in the *Code Validation* section above).
 
 ## Deployment
 

@@ -361,11 +361,11 @@ footer {
 .tutorial-videos {
     height: 250px;
     gap: 1rem;
+}
 
-    .col-3 {
+.col-3 {
     width: 23%;
     }
-}
 
 .tutorial-videos .col-12.col-md-6.col-lg-3 {
     padding: 0 10px;
